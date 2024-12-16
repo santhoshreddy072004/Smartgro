@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartGro Dashboard</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <header>
+    <h1>SmartGro Dashboard</h1>
+  </header>
+  <main>
+    <div class="data-container">
+      <h2>Sensor Data</h2>
+      <p><strong>Temperature:</strong> <span id="temperature">Loading...</span> °C</p>
+      <p><strong>Humidity:</strong> <span id="humidity">Loading...</span> %</p>
+    </div>
+    <div class="control-container">
+      <h2>Control Actuators</h2>
+      <button id="waterButton">Activate Water Pump</button>
+    </div>
+  </main>
+  <script src="./scripts/main.js"></script>
+</body>
+</html>
